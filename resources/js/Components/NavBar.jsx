@@ -17,7 +17,7 @@ function NavBar() {
           <div className="navbar-nav ms-auto py-0">
             <Link href="/" className="nav-item nav-link active">Home</Link>
             <Link href="/about" className="nav-item nav-link">About</Link>
-            <Link href="service.html" className="nav-item nav-link">Service</Link>
+            <Link href="/product" className="nav-item nav-link">Product</Link>
             <Link href="price.html" className="nav-item nav-link">Pricing</Link>
             <div className="nav-item dropdown">
               <Link href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>

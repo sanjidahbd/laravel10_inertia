@@ -19,6 +19,9 @@ use Inertia\Inertia;
 
 Route::get('/', [FrontEndController::class,'home']); 
 Route::get('/about', [FrontEndController::class,'about']); 
+Route::get('/product', [FrontEndController::class,'product']); 
+Route::get('/product/create', [FrontEndController::class,'create']); 
+Route::post('/product/store', [FrontEndController::class,'store'])->name('product.store'); 
    
 
 Route::get('/dashboard', function () {
